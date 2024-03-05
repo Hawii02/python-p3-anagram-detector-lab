@@ -6,7 +6,7 @@ class TestAnagram:
     def test_instantiates_with_word(self):
         '''instantiates with a single argument, a word.'''
         assert(Anagram("word"))
-
+    
     def test_has_match_method(self):
         '''contains a method called "match".'''
         assert(Anagram.match)
